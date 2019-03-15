@@ -14,7 +14,9 @@ log "Download Raspi2png"
 git clone https://github.com/AndrewFromMelbourne/raspi2png.git
 
 log "Download all Open.HD Sources"
-sudo git clone https://github.com/HD-Fpv/Open.HD.git
+#sudo git clone https://github.com/HD-Fpv/Open.HD.git
+sudo git clone -b RemoteSettings2 https://github.com/Consti10/Open.HD.git
+
 pushd Open.HD
 sudo git submodule update --init
 popd

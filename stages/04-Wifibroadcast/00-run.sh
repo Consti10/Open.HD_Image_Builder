@@ -88,6 +88,9 @@ log "Download RemoteSettings"
 # sudo git clone -b user1321-5MhzAth9k https://github.com/user1321/RemoteSettings
 sudo mv Open.HD/RemoteSettings/ RemoteSettings/
 
+#RemoteSettings2
+sudo mv Open.HD/RemoteSettings/ RemoteSettings/
+
 log "Download cameracontrol"
 # sudo git clone https://github.com/user1321/cameracontrol
 sudo mv Open.HD/cameracontrol/ cameracontrol/
